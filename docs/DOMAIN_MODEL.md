@@ -20,6 +20,7 @@ Represents every object which can be employed by the character. The available on
 It provides the equipment with special powers. 
 - IT HAS -> Type. It provides magic or physical skills.
 - IT HAS -> Bonus. It can boost either attack points or resistance or stamina regain.
+- IT HAS -> Cost. It reduces the player stamina when used.
 
 ### Out of scope
 Right now regeneration items for the life ponts like potions are out of scope.
