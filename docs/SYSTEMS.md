@@ -15,9 +15,9 @@ It regulates the interactions during the fights.
 - Save data
 - Read user input
 ### Owns
-- Character status
+- Combat effects
 - Attacks cost
-- Life points calculations
+- Damage calculations
 
 ## Movement System
 It regulates the character moving inside the arena
@@ -29,9 +29,9 @@ It regulates the character moving inside the arena
 - Obstacle
 ### Does not
 ### Owns
-- Collision detection
-- Interaction with obstacles
-- Movement cost calculation
+- Collision rules
+- Can a Character move from A to B?
+- Movement cost
 
 ## Character Management System
 Build and modify character appearance and equipment.
@@ -48,14 +48,14 @@ Build and modify character appearance and equipment.
 - Render equipment
 - Render abilities
 ### Owns
-- Equipment inventory
-- Ability Inventory
+- Character customization rules
+- Equipment assignment rules
 - Match abilities with equipment
 
 ## Match System
 Manage game progress
 ### Responsibility
-- Put players into the arena
+- Create march context
 - Start the fight
 - Decide when the fight finishes
 - Establish the winner
@@ -81,8 +81,8 @@ Takes AI opponents decision
 - Arena
 ### Does not
 ### Owns
-- AI characters
-- Decisions tree
+- Decision making process
+- Difficulty rules
 - Autonomous combat algorithm
 
 # Application
@@ -108,23 +108,24 @@ Manage permanent information store and retrieve
 - Renders Arena
 - Match equipment with their abilities
 ### Owns
-- Available characters
-- Available equipments
-- Available abilities
-- Available maps
-- Customized characters
+- Serialization format
+- Storage mechanism
 
 ## Logging system
 
 ## Configuration system
 
 # Infrastructure
+## Game loop system
+
+## Rendering system
+
 ## Filesystem system
 
 ## Serialization system
 
 ## Platform system
 
+# Future
 ## Audio system
-
-## Networking system?
+## Networking system
