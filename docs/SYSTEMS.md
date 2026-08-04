@@ -55,7 +55,7 @@ Build and modify character appearance and equipment.
 ## Match System
 Manage game progress
 ### Responsibility
-- Create march context
+- Create match context
 - Start the fight
 - Decide when the fight finishes
 - Establish the winner
