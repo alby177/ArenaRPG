@@ -101,20 +101,35 @@ Manage application state transitions
 - Sequence to access the various menus
 
 ## Input system
-Catch input from the user and provide it to the other systems
+Catch input from the user abstracting where the input comes from.
 ### Responsibility
 - Catch user input from keyboard or joypad
 - Provide the translated input to the other systems
 - Unification of the inputs coming from different devices
 ### Works with
-- Navigation system
-- Movement system
+- Command system
 ### Does not
 - Move the character
 - Decide if the character can move
 ### Owns
 - Input detection loop
 - Translation from hardware data to software data
+
+## Command system
+Translates the raw input into the command which, according to the context, allow the game to proceed.
+### Responsibility
+- Fetch the navigation status (character creation menu, arena, settings)
+- Translates the raw input into the appropriate command
+- Provide the command to the right system
+ ### Works with
+- Navigation system
+- Movement system
+### Does not
+- Move the character
+- Decide if the character can move
+### Owns
+- Translation from raw input (e.g. arrowUp)
+- According to the application state, choose proper command to provide to the next system 
 
 ## Settings system
 Show the available settings and the current settings status
