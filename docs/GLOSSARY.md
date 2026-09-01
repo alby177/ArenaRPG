@@ -11,7 +11,7 @@ This document contains all the words which are employed and all their meaning.
 - __Ability__: skill which enhance one of the equipment's characteristics
 - __Stamina__: it is the energy used by the character to fight. Sprints and hits reduce the stamina while resting slowly recharge it
 - __Stamina regain__: it quantifies how much stamina is gained back in 1s
-- __Movement speed__: it is the amount of meters which can be covered in a second by each character
+- __Movement speed__: it is the amount of squares which can be covered in a move by each character
 - __Life points__: It quantifies how much energy the character has before fainting
 - __Durability__: It is the amount of damage that can be endured by the equipment before breaking. Once the equipment is broken, its benefits aren't available anymore
 - __Resistance__: it quantifies how much the damage inflicted by the opponent is reduced

@@ -28,7 +28,7 @@ Right now regeneration items for the life ponts like potions are out of scope.
 It's the theatre of the fight. 
 - IT HAS -> Characters.
 - IT HAS -> Obstacles. 
-- IT HAS -> Fixed dimension and the characters cannot exit it until the match is over. The arena models are fixed and can be chosen before the match.
+- IT HAS -> Fixed dimension as grid NxM and the characters cannot exit it until the match is over. The arena models are fixed and can be chosen before the match.
 
 # Match
 It is the main event of the game. It is the moment when the fight happens. It ends when one of its victory condition is met. 
