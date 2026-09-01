@@ -1,12 +1,11 @@
 # Character
 It is the main actor of the game. It's the one which is fighting in the ARENA. 
 - IT HAS -> Equipment.
-- IT WEARS -> Armor.
 - IT HAS -> Life points. 
 - IT HAS -> Resistance.
 - IT HAS -> Speed movement.
 - IT HAS -> Stamina. It determines if it is still able to move or attack or it must rest for a little bit of time to regain some of it to continue the fight. Ending the stamina doesn't mean losing.
-- IT HAS -> Stamina regain.
+- IT HAS -> Stamina regain. In case of 0 stamina, the player can't move until enough stamina to move is regained.
 
 # Equipment
 Represents every object which can be employed by the character. The available ones are Weapons and Armors. Characters can wear only one armor and use one or more weapons according to their characteristics.
