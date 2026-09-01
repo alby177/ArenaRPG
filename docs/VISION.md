@@ -5,7 +5,7 @@ ArenaRPG is a small tactical RPG focused on character customization and strategi
 
 The players are fighting into an arena that is represented by a map in which they can move freely according to their stamina. A match can involve one human player against one or more AI-controlled opponents. Players choose their character, customize it with weapons and armors to enhance the power of the moves and start battling against each other.
 
-Fights can be player vs player or player vs multiple AI controlled player.
+Fights can be player vs player or player vs multiple AI controlled player. The winner is the team or the player which bring to zero the life points of the opposing player or of each member of the other team.
 
 The maps are full of obstacles, which can be a barrier for players or can slow they down. Players have to get around some of them or use others as traps for their enemy. Either way, obstacles can be traps or allies. 
 
